@@ -45,15 +45,14 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Pooja.Anand2@ibm.com</value>
-    <value name="createdDate">1778757146504</value>
-    <value name="lastModifiedDate">1778757146504</value>
+    <value name="lastModifiedBy">Pooja.Anand2@ibm.com</value>
+    <value name="lastModifiedDate">1778761146223</value>
     <value name="displayName">daftest1</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
-        <value name="providerName">TestWb3262Project</value>
-        <value name="id">project.testwb3262.TestWb3262Project.newUber</value>
+        <value name="providerName">TestNewPatchProject</value>
+        <value name="id">project.testnewpatch.TestNewPatchProject.newUber</value>
       </record>
     </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -105,12 +104,29 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
